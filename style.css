@@ -1,0 +1,64 @@
+p {color: blue;
+font-family: sans-serif;}
+body {
+  background: #F7F9FC;
+  color: #575F7D;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: sans-serif;
+}
+h1 {h1 {background-color: black;
+color: deepskyblue;
+font-family: sans-serif;
+}
+
+  color: #575F7D;
+  font-size: 40px;
+  font-weight: 900;
+}
+h2 {
+  color: #7ECE90;
+  font-size: 24px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #0c17b9;
+  font-weight: 600;
+  font-size: 14px;
+}
+a:hover {
+  color: black;
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
